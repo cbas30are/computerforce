@@ -1,0 +1,567 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+.logo span {
+    color: #0056d2;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #0056d2;
+}
+
+.search-bar {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: url("img/productback.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content {
+    width: 60%;
+}
+
+.about-content h1 {
+    font-size: 32px;
+  
+    margin-bottom: 10px;
+}
+
+
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.purchase {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.purchase h3 {
+    color: #0056d2;
+    margin-bottom: 10px;
+}
+
+.item, .total {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.checkout {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout:hover {
+    background-color: #003a90;
+}
+
+/* Goals Section */
+.goals {
+    padding: 40px;
+    background-color: #001f3f;
+    text-align: center;
+}
+
+.goals h2 {
+    color: #0056d2;
+    margin-bottom: 20px;
+}
+
+.goals ul {
+    list-style: none;
+    padding: 0;
+}
+
+.goals ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact h3 {
+    color: #0056d2;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+/* Registration Form Section */
+.register-form {
+    padding: 40px;
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+}
+
+.register-form h1 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.register-form span {
+    color: #0056d2;
+}
+
+.register-form p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 45%;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clear, .register {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #666;
+    color: white;
+}
+
+.register {
+    background-color: #0056d2;
+    color: white;
+}
+
+.register:hover {
+    background-color: #003a90;
+}
+
+/* Registration Form Section */
+.register-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.blue-container {
+    background-color: #001f3f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.blue-container h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.blue-container span {
+    color: #0056d2;
+}
+
+.white-container {
+    background-color: white;
+    color: black;
+    width: 60%;
+    padding: 20px;
+    margin-top: -20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clear, .register {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.clear {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.register {
+    background-color: black;
+    color: white;
+    border: 1px solid #000;
+}
+
+.register:hover {
+    background-color: #333;
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #001f3f;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #0056d2;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #0056d2;
+}
+
+.search-bar {
+    display: inline-block;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Banner Section */
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('banner.jpg'); /* Replace with actual banner image */
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-text {
+    max-width: 50%;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+}
+
+.banner-text span {
+    color: #0056d2;
+}
+
+.shopping-cart {
+    background-color: #000;
+    padding: 20px;
+    color: white;
+    max-width: 30%;
+}
+
+.shopping-cart h2 {
+    margin-top: 0;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.total button {
+    background-color: #0056d2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Registration Form Section */
+.form-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.blue-container {
+    background-color: #001f3f;
+    color: white;
+    padding: 20px;
+    width: 45%;
+}
+
+.white-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    text-align: left;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-row input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clear, .register {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.clear {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.register {
+    background-color: black;
+    color: white;
+    border: 1px solid #000;
+}
+
+.register:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Gallery Section (Index Page) */
+.gallery-section {
+    padding: 130px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.gallery img {
+
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Products Section (Products Page) */
+.products-section {
+    padding: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+	
+}
+
+.product-carousel {
+    display: flex;
+    gap: 20px;
+	
+}
+
+.product-carousel img {
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.about-content h2{
+	color:#0056d2;
+	font-size: 60px;
+	
+	text-align: left;
+}
+
+.product-carousel img{
+	border: none;
+}
+
+
+
+.welcome {
+	 display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: url("img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.registration {
+	display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-image: url("img/registerback.jpeg");
+    background-size:auto;
+    background-position: center;
+}
