@@ -1,0 +1,1 @@
+pagina solo para estudio
